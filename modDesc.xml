@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="111">
+    <author>Marcus (Cobra Modding)</author>
+    <version>1.0.0.0</version>
+
+    <title>
+        <en>Advanced Vehicle Functions</en>
+        <de>Erweiterte Fahrzeugfunktionen</de>
+    </title>
+
+    <description>
+        <en><![CDATA[
+Advanced vehicle functions for Farming Simulator 25.
+
+Features:
+- Joystick throttle and brake
+- Analog thrust lever
+- Preheating
+- Handbrake
+- Four-wheel drive
+- Front differential lock
+- Rear differential lock
+- Automatic reverse cabin camera
+- Engine RPM and temperature display
+- Realistic air-brake system
+- Load-dependent vehicle and implement physics
+- Rollover accidents, cargo loss and towing service
+- Front/rear/all implement lifting
+- Front/rear/all implement power control
+- Front/rear/all implement folding]]></en>
+
+        <de><![CDATA[
+Erweiterte Fahrzeugfunktionen für den Landwirtschafts-Simulator 25.
+
+Funktionen:
+- Joystick Gas und Bremse
+- Analoger Schubregler
+- Vorglühen
+- Handbremse
+- Allrad
+- Differentialsperre vorne
+- Differentialsperre hinten
+- Automatischer Rückwärtsblick in der Innenkamera
+- Motordrehzahl und Motortemperatur
+- Realistische Druckluftbremsanlage
+- Lastabhängige Fahrzeug- und Gerätephysik
+- Kippunfälle, Ladungsverlust und Abschleppdienst
+- Front/Heck/Alle Geräte heben und senken
+- Front/Heck/Alle Geräte ein- und ausschalten
+- Front/Heck/Alle Geräte ein- und ausklappen]]></de>
+    </description>
+
+    <iconFilename>icon_AdvancedVehicleFunctions.dds</iconFilename>
+
+    <multiplayer supported="true"/>
+	
+    <l10n>
+		<text name="input_FRC_THROTTLE_AXIS_1"><de>Joystick Bremse</de><en>Toggle joystick brake</en></text>
+		<text name="input_FRC_THROTTLE_AXIS_2"><de>Joystick Gas</de><en>Toggle joystick throttle</en></text>
+		<text name="input_FRC_TOGGLE_JOYSTICK_THROTTLE"><de>Joystick aktivieren/deaktivieren</de><en>Enable/disable joystick</en></text>		
+		<text name="input_FRC_THRUST_LEVER_AXIS_1"><de>Schubhebel weniger</de><en>Thrust lever decrease</en></text>
+		<text name="input_FRC_THRUST_LEVER_AXIS_2"><de>Schubhebel mehr</de><en>Thrust lever increase</en></text>
+		<text name="input_FRC_TOGGLE_THRUST_LEVER"><de>Schubhebel aktivieren/deaktivieren</de><en>Activate/deactivate thrust lever</en></text>
+        <text name="input_FRC_TOGGLE_HANDBRAKE"><de>Handbremse ein-/ausschalten</de><en>Toggle handbrake</en></text>
+        <text name="input_FRC_TOGGLE_FOUR_WHEEL_DRIVE"><de>Allrad ein-/ausschalten</de><en>Toggle four-wheel drive</en></text>
+        <text name="input_FRC_TOGGLE_FRONT_DIFFERENTIAL_LOCK"><de>Differentialsperre vorne ein-/ausschalten</de><en>Toggle front differential lock</en></text>
+        <text name="input_FRC_TOGGLE_REAR_DIFFERENTIAL_LOCK"><de>Differentialsperre hinten ein-/ausschalten</de><en>Toggle rear differential lock</en></text>
+        <text name="input_FRC_TOGGLE_FRONT_LIFT"><de>Frontgerät heben/senken</de><en>Raise/lower front implement</en></text>
+        <text name="input_FRC_TOGGLE_REAR_LIFT"><de>Heckgerät heben/senken</de><en>Raise/lower rear implement</en></text>
+        <text name="input_FRC_TOGGLE_ALL_LIFT"><de>Alle Geräte heben/senken</de><en>Raise/lower all implements</en></text>
+        <text name="input_FRC_TOGGLE_FRONT_POWER"><de>Frontgerät ein-/ausschalten</de><en>Turn front implement on/off</en></text>
+        <text name="input_FRC_TOGGLE_REAR_POWER"><de>Heckgerät ein-/ausschalten</de><en>Turn rear implement on/off</en></text>
+        <text name="input_FRC_TOGGLE_ALL_POWER"><de>Alle Geräte ein-/ausschalten</de><en>Turn all implements on/off</en></text>
+        <text name="input_FRC_TOGGLE_FRONT_FOLD"><de>Frontgerät ein-/ausklappen</de><en>Fold/unfold front implement</en></text>
+        <text name="input_FRC_TOGGLE_REAR_FOLD"><de>Heckgerät ein-/ausklappen</de><en>Fold/unfold rear implement</en></text>
+        <text name="input_FRC_TOGGLE_ALL_FOLD"><de>Alle Geräte ein-/ausklappen</de><en>Fold/unfold all implements</en></text>
+		<text name="input_FRC_PREHEAT"><de>Motor vorglühen</de><en>Preheat engine</en></text>
+        <text name="frc_preheating"><de>Motor wird vorgeglüht...</de><en>Preheating engine...</en></text>
+        <text name="frc_preheatComplete"><de>Vorglühen abgeschlossen</de><en>Preheating complete</en></text>
+        <text name="frc_preheatRequired"><de>Motor muss zuerst vorgeglüht werden</de><en>Engine must be preheated first</en></text>
+        <text name="frc_configurationFourWheelDrive"><de>Allradantrieb</de><en>Four-wheel drive</en></text>
+        <text name="frc_configurationDifferentialLocks"><de>Differentialsperren</de><en>Differential locks</en></text>
+        <text name="frc_configurationInstalled"><de>Verbaut</de><en>Installed</en></text>
+        <text name="frc_noFourWheelDrive"><de>Dieses Fahrzeug besitzt keinen Allradantrieb</de><en>This vehicle has no four-wheel drive</en></text>
+        <text name="frc_noDifferentialLocks"><de>Dieses Fahrzeug besitzt keine Differentialsperren</de><en>This vehicle has no differential locks</en></text>
+        <text name="frc_noHandbrake"><de>Für dieses Fahrzeug ist keine Handbremse verfügbar</de><en>No handbrake available for this vehicle</en></text>
+        <text name="frc_noFrontLift"><de>Kein absenkbares Frontgerät gefunden</de><en>No lowerable front implement found</en></text>
+        <text name="frc_noRearLift"><de>Kein absenkbares Heckgerät gefunden</de><en>No lowerable rear implement found</en></text>
+        <text name="frc_noAllLift"><de>Keine absenkbaren Geräte gefunden</de><en>No lowerable implements found</en></text>
+        <text name="frc_noFrontPower"><de>Kein einschaltbares Frontgerät gefunden</de><en>No powered front implement found</en></text>
+        <text name="frc_noRearPower"><de>Kein einschaltbares Heckgerät gefunden</de><en>No powered rear implement found</en></text>
+        <text name="frc_noAllPower"><de>Keine einschaltbaren Geräte gefunden</de><en>No powered implements found</en></text>
+        <text name="frc_noFrontFold"><de>Kein klappbares Frontgerät gefunden</de><en>No foldable front implement found</en></text>
+        <text name="frc_noRearFold"><de>Kein klappbares Heckgerät gefunden</de><en>No foldable rear implement found</en></text>
+        <text name="frc_noAllFold"><de>Keine klappbaren Geräte gefunden</de><en>No foldable implements found</en></text>
+		<text name="input_RVP_CALL_TOW_SERVICE"><de>Abschleppdienst rufen</de><en>Call towing service</en></text>
+        <text name="rc_reverseCameraSection"><de>Erweiterte Fahrzeugfunktionen</de><en>Advanced Vehicle Functions</en></text>
+        <text name="rc_reverseCameraLabel"><de>Automatischer Rückwärtsblick</de><en>Automatic reverse view</en></text>
+        <text name="rc_reverseCameraTooltip"><de>Dreht die Innenkamera im Rückwärtsgang nach hinten. Bei Vorwärtsgang oder Neutral kehrt die vorherige Ansicht zurück. Unterstützt Headtracking: Kopfbewegungen bleiben erhalten.</de><en>Turns the cabin camera backwards in reverse and restores the previous view in forward or neutral. Supports head tracking while preserving head movement.</en></text>
+    </l10n>
+
+    <actions>
+        <action name="FRC_TOGGLE_JOYSTICK_THROTTLE" category="VEHICLE" axisType="HALF"/>
+        <action name="FRC_THROTTLE_AXIS" category="VEHICLE" axisType="FULL"/>      
+        <action name="FRC_TOGGLE_THRUST_LEVER" category="VEHICLE" axisType="HALF"/>
+        <action name="FRC_THRUST_LEVER_AXIS" category="VEHICLE" axisType="FULL"/>        
+        <action name="FRC_PREHEAT" category="VEHICLE" axisType="HALF"/>
+        <action name="FRC_TOGGLE_HANDBRAKE" category="VEHICLE" axisType="HALF"/>
+        <action name="FRC_TOGGLE_FOUR_WHEEL_DRIVE" category="VEHICLE" axisType="HALF"/>
+        <action name="FRC_TOGGLE_FRONT_DIFFERENTIAL_LOCK" category="VEHICLE" axisType="HALF"/>
+        <action name="FRC_TOGGLE_REAR_DIFFERENTIAL_LOCK" category="VEHICLE" axisType="HALF"/>       
+        <action name="FRC_TOGGLE_FRONT_LIFT" category="VEHICLE" axisType="HALF"/>
+        <action name="FRC_TOGGLE_FRONT_POWER" category="VEHICLE" axisType="HALF"/>
+        <action name="FRC_TOGGLE_FRONT_FOLD" category="VEHICLE" axisType="HALF"/>
+        <action name="FRC_TOGGLE_REAR_LIFT" category="VEHICLE" axisType="HALF"/>
+        <action name="FRC_TOGGLE_REAR_POWER" category="VEHICLE" axisType="HALF"/>
+        <action name="FRC_TOGGLE_REAR_FOLD" category="VEHICLE" axisType="HALF"/>
+        <action name="FRC_TOGGLE_ALL_LIFT" category="VEHICLE" axisType="HALF"/>
+        <action name="FRC_TOGGLE_ALL_POWER" category="VEHICLE" axisType="HALF"/>
+        <action name="FRC_TOGGLE_ALL_FOLD" category="VEHICLE" axisType="HALF"/>
+		<action name="RVP_CALL_TOW_SERVICE"/>
+    </actions>
+	
+	<inputBinding>
+        <actionBinding action="RVP_CALL_TOW_SERVICE">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_KP_plus"/>
+        </actionBinding>
+    </inputBinding>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/JoystickThrust.lua"/>
+        <sourceFile filename="scripts/VehicleSystems.lua"/>
+		<sourceFile filename="scripts/AirBrake.lua"/>
+        <sourceFile filename="scripts/ImplementControls.lua"/>
+        <sourceFile filename="scripts/ADS_IngameTimeFix.lua"/>
+		<sourceFile filename="scripts/RealVehiclePhysics.lua"/>
+        <sourceFile filename="scripts/ReverseCamera.lua"/>
+    </extraSourceFiles>
+
+</modDesc>
+
+<!-- Inspiriert von FS25_EnhancedVehicel von ZhooL und VehicleControlAddon von Mogli12 -->
