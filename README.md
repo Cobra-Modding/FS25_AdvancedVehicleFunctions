@@ -33,4 +33,4 @@ Version 1.0.0.0 ( Zu viel zum ausführlichen Schreiben, deswegen nur in Stichpun
 - Separates Ein- und Ausklappen von Front- und Heckgeräten
 - Gemeinsames Ein- und Ausklappen aller Geräte
 
-Kamera dreht sich automatisch in der Innenansicht, wenn der Rückwärtsgang eingelegt wird, dies kann in den allgemeinen Einstellungen deaktiviert werden.
+Kamera dreht sich automatisch in der Innenansicht, wenn der Rückwärtsgang eingelegt wird. Dies kann in den allgemeinen Einstellungen deaktiviert werden.
