@@ -1,4 +1,4 @@
-Version 1.0.0.0 ( Zu viel zum ausführlich Schreiben, deswegen nur Stichpunkte)
+Version 1.0.0.0 ( Zu viel zum ausführlichen Schreiben, deswegen nur in Stichpunkte)
 - Analoge Joystick-Steuerung für Gas und Bremse
 - Zuschaltbarer analoger Schubhebel
 - Vorglühsystem für kalte Motoren
