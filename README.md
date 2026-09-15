@@ -1,0 +1,36 @@
+Version 1.0.0.0 ( Zu viel zum ausführlich Schreiben, deswegen nur Stichpunkte)
+- Analoge Joystick-Steuerung für Gas und Bremse
+- Zuschaltbarer analoger Schubhebel
+- Vorglühsystem für kalte Motoren
+- Motorstart kann bei fehlendem Vorglühen verhindert werden
+- Anzeige von Motordrehzahl und Motortemperatur im HUD
+- Funktionsfähige Handbremse
+- Geräusche beim Anziehen und Lösen der Handbremse
+- Zuschaltbarer Allradantrieb
+- Separate Differentialsperren für Vorder- und Hinterachse
+- Allrad und Differenzial kann im Shop gekauft werden
+- Realistische Druckluftbremsanlage für Fahrzeuge
+- Simulierter Luftdruck von 0 bis 10 bar
+- Drehzahlabhängige Kompressorleistung
+- Luftverbrauch beim Bremsen und Betätigen der Handbremse
+- Luftverbrauch beim Anschließen eines Druckluftanhängers
+- Handbremse kann bei zu geringem Luftdruck nicht gelöst werden
+- Nachlassende Bremswirkung bei niedrigem Luftdruck
+- Lastabhängiger Fahrzeugschwerpunkt
+- Dynamische Gewichtsverlagerung der Ladung in Kurven und an Hängen
+- Erhöhte Kippgefahr durch beladene Anhänger und angehobene Geräte
+- Verstärkter Schub schwerer Anhänger bei Bergabfahrten
+- Ladungsverlust bei offenen Abdeckungen und höherer Fahrgeschwindigkeit
+- Erkennung von Überschlägen und Fahrzeugunfällen
+- Austreten beziehungsweise Verlust von Schüttgut nach einem Unfall
+- Abschleppdienst für verunfallte Fahrzeuge
+- Berechnung der Abschleppkosten nach Entfernung zur Werkstatt
+- Gemeinsames Heben und Senken von Frontgeräten
+- Gemeinsames Heben und Senken von Heckgeräten
+- Gemeinsames Heben und Senken aller angebauten Geräte
+- Separates Ein- und Ausschalten von Front- und Heckgeräten
+- Gemeinsames Ein- und Ausschalten aller Geräte
+- Separates Ein- und Ausklappen von Front- und Heckgeräten
+- Gemeinsames Ein- und Ausklappen aller Geräte
+
+Kamera dreht sich automatisch in der Innenansicht, wenn der Rückwärtsgang eingelegt wird, dies kann in den allgemeinen Einstellungen deaktiviert werden.
