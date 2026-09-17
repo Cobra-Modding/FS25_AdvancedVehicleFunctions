@@ -2,7 +2,6 @@ Version 1.0.0.0 ( Zu viel zum ausführlichen Schreiben, deswegen nur in Stichpun
 - Analoge Joystick-Steuerung für Gas und Bremse
 - Zuschaltbarer analoger Schubhebel
 - Vorglühsystem für kalte Motoren
-- Motorstart kann bei fehlendem Vorglühen verhindert werden
 - Anzeige von Motordrehzahl und Motortemperatur im HUD
 - Funktionsfähige Handbremse
 - Geräusche beim Anziehen und Lösen der Handbremse
