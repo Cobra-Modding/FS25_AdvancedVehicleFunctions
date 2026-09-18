@@ -35,3 +35,5 @@ Version 1.0.0.0 ( Zu viel zum ausführlichen Schreiben, deswegen nur in Stichpun
 - Gemeinsames Ein- und Ausklappen aller Geräte
 
 Kamera dreht sich automatisch in der Innenansicht, wenn der Rückwärtsgang eingelegt wird. Dies kann in den allgemeinen Einstellungen deaktiviert werden.
+
+Kompatibel mit https://github.com/id577/FS25_AdvancedDamageSystem
