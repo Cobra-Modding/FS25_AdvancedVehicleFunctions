@@ -1,3 +1,5 @@
+    Hinweis: Allrad und Differenziale müssen in Shop für jedes gewünschte Fahrzeug erst gekauft werden.
+
 Version 1.0.0.0 ( Zu viel zum ausführlichen Schreiben, deswegen nur in Stichpunkte)
 - Analoge Joystick-Steuerung für Gas und Bremse
 - Zuschaltbarer analoger Schubhebel
