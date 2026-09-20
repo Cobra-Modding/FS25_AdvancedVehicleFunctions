@@ -1,7 +1,5 @@
     Hinweis: Allrad und Differenziale müssen in Shop für jedes gewünschte Fahrzeug erst gekauft werden.
 
-<img width="1024" height="576" alt="fsScreen_2026_09_20_11_10_09" src="https://github.com/user-attachments/assets/8adff4e7-b11a-4f7f-b2d8-fd01f40196b3" />
-<img width="1024" height="576" alt="fsScreen_2026_09_20_11_05_41" src="https://github.com/user-attachments/assets/2549fc1e-43c6-4daa-81d4-fc816a803815" />
 
 - Analoge Joystick-Steuerung für Gas und Bremse
 - Zuschaltbarer analoger Schubhebel
