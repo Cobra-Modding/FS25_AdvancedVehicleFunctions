@@ -1,6 +1,5 @@
     Hinweis: Allrad und Differenziale müssen in Shop für jedes gewünschte Fahrzeug erst gekauft werden.
-
-
+<img width="3840" height="2160" alt="fsScreen_2026_09_20_11_10_09" src="https://github.com/user-attachments/assets/1f01cbca-2bfb-4cd1-8fcd-e9a15832d512" /><img width="3840" height="2160" alt="fsScreen_2026_09_20_11_05_41" src="https://github.com/user-attachments/assets/3e8c3e60-446d-4d71-9a88-042f0d1e7802" />
 - Analoge Joystick-Steuerung für Gas und Bremse
 - Zuschaltbarer analoger Schubhebel
 - Vorglühsystem für kalte Motoren
