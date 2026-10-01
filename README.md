@@ -36,3 +36,5 @@
 Kamera dreht sich automatisch in der Innenansicht, wenn der Rückwärtsgang eingelegt wird. Dies kann in den allgemeinen Einstellungen deaktiviert werden.
 
 Kompatibel mit https://github.com/id577/FS25_AdvancedDamageSystem
+
+    Achtung: Nicht kompatibel mit anderen Physik-Mods, da ein eigenes Physik-System verbaut ist
