@@ -35,7 +35,7 @@
 - Kamera dreht sich automatisch in der Innenansicht, wenn der Rückwärtsgang eingelegt wird. Dies kann in den allgemeinen Einstellungen deaktiviert werden.
 - Leichte Vibration der Innenkamera, soll das laufen des Motor´s simulieren
 - Frontlader kann im Leerlauf mit Gas (Umdrehungen) schneller hoch und runter gefahren werden
-- Beim Motorstart muss der Knopf oder der Schlüssel (Zündschloss) 0,8 Sekunden gehalten werden, sonst Springt das Fahrzeug nicht an
+- Beim Motorstart muss der Knopf oder der Schlüssel (Zündschloss) 0,8 Sekunden gehalten werden, sonst Springt das Fahrzeug nicht an (soll ein echtes Zündschloss simulieren)
 
 Kompatibel mit https://github.com/id577/FS25_AdvancedDamageSystem
 
