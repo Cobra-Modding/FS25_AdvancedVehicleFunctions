@@ -39,4 +39,3 @@
 
 Kompatibel mit https://github.com/id577/FS25_AdvancedDamageSystem
 
-    Achtung: Nicht kompatibel mit anderen Physik-Mods, da ein eigenes Physik-System verbaut ist
